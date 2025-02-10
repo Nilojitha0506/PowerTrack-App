@@ -1,0 +1,256 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.power_app"
+4    android:versionCode="4001"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml
+10    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+11    <!-- <uses-sdk android:minSdkVersion="21"/> -->
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\5d789987da54a2f0e829f91eb790dbf6\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:22:5-79
+12-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\5d789987da54a2f0e829f91eb790dbf6\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:22:22-76
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\5d789987da54a2f0e829f91eb790dbf6\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:23:5-67
+13-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\5d789987da54a2f0e829f91eb790dbf6\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:23:22-64
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\ac262adcf632626579ec7f99b9be3106\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:24:5-68
+14-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\ac262adcf632626579ec7f99b9be3106\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:24:22-65
+15    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+15-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\ac262adcf632626579ec7f99b9be3106\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:25:5-79
+15-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\ac262adcf632626579ec7f99b9be3106\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+16-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\ac262adcf632626579ec7f99b9be3106\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:26:5-88
+16-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\ac262adcf632626579ec7f99b9be3106\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:26:22-85
+17    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+17-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\ac262adcf632626579ec7f99b9be3106\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:27:5-82
+17-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\ac262adcf632626579ec7f99b9be3106\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:27:22-79
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\cede023a6093dd4f6cb54d53fa7a9ca7\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:26:5-110
+18-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\cede023a6093dd4f6cb54d53fa7a9ca7\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:26:22-107
+19
+20    <permission
+20-->[androidx.core:core:1.9.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\d9a7bda5b0a0d2fc08828ff145bfcb70\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+21        android:name="com.example.power_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.9.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\d9a7bda5b0a0d2fc08828ff145bfcb70\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.9.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\d9a7bda5b0a0d2fc08828ff145bfcb70\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.example.power_app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.9.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\d9a7bda5b0a0d2fc08828ff145bfcb70\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.9.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\d9a7bda5b0a0d2fc08828ff145bfcb70\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:2:5-32:19
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.9.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\d9a7bda5b0a0d2fc08828ff145bfcb70\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+28        android:icon="@mipmap/launcher_icon"
+28-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:5:9-45
+29        android:label="power_app" >
+29-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:3:9-34
+30        <activity
+30-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:6:9-26:20
+31            android:name="com.example.power_app.MainActivity"
+31-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:7:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:11:13-163
+33            android:exported="true"
+33-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:8:13-36
+34            android:hardwareAccelerated="true"
+34-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:12:13-47
+35            android:launchMode="singleTop"
+35-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:9:13-43
+36            android:theme="@style/LaunchTheme"
+36-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:10:13-47
+37            android:windowSoftInputMode="adjustResize" >
+37-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:13:13-55
+38
+39            <!--
+40                 Specifies an Android theme to apply to this Activity as soon as
+41                 the Android process has started. This theme is visible to the user
+42                 while the Flutter UI initializes. After that, this theme continues
+43                 to determine the Window background behind the Flutter UI.
+44            -->
+45            <meta-data
+45-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:18:13-21:17
+46                android:name="io.flutter.embedding.android.NormalTheme"
+46-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:19:15-70
+47                android:resource="@style/NormalTheme" />
+47-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:20:15-52
+48
+49            <intent-filter>
+49-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:22:13-25:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:23:17-68
+50-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:23:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:24:17-76
+52-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:24:27-74
+53            </intent-filter>
+54        </activity>
+55        <!--
+56             Don't delete the meta-data below.
+57             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+58        -->
+59        <meta-data
+59-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:29:9-31:33
+60            android:name="flutterEmbedding"
+60-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:30:13-44
+61            android:value="2" />
+61-->C:\Users\Vibesheak\Desktop\power_app\android\app\src\main\AndroidManifest.xml:31:13-30
+62
+63        <service
+63-->[:firebase_database] C:\Users\Vibesheak\Desktop\power_app\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+64            android:name="com.google.firebase.components.ComponentDiscoveryService"
+64-->[:firebase_database] C:\Users\Vibesheak\Desktop\power_app\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+65            android:directBootAware="true"
+65-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\c32fb5eb96649f479ff139e47e5cfa45\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+66            android:exported="false" >
+66-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\5d789987da54a2f0e829f91eb790dbf6\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:28:13-37
+67            <meta-data
+67-->[:firebase_database] C:\Users\Vibesheak\Desktop\power_app\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+68                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+68-->[:firebase_database] C:\Users\Vibesheak\Desktop\power_app\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-127
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[:firebase_database] C:\Users\Vibesheak\Desktop\power_app\build\firebase_database\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+70            <meta-data
+70-->[:firebase_core] C:\Users\Vibesheak\Desktop\power_app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+71-->[:firebase_core] C:\Users\Vibesheak\Desktop\power_app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[:firebase_core] C:\Users\Vibesheak\Desktop\power_app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\5d789987da54a2f0e829f91eb790dbf6\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:29:13-31:85
+74                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+74-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\5d789987da54a2f0e829f91eb790dbf6\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:30:17-120
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\5d789987da54a2f0e829f91eb790dbf6\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:31:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\5d789987da54a2f0e829f91eb790dbf6\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:32:13-34:85
+77                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+77-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\5d789987da54a2f0e829f91eb790dbf6\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:33:17-109
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-database:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\5d789987da54a2f0e829f91eb790dbf6\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:34:17-82
+79            <meta-data
+79-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\ac262adcf632626579ec7f99b9be3106\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:37:13-39:85
+80                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+80-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\ac262adcf632626579ec7f99b9be3106\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:38:17-139
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\ac262adcf632626579ec7f99b9be3106\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:39:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\1406251ac0e3d6fe8f36a85422fa962e\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:15:13-17:85
+83                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+83-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\1406251ac0e3d6fe8f36a85422fa962e\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:16:17-130
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\1406251ac0e3d6fe8f36a85422fa962e\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:17:17-82
+85            <meta-data
+85-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\1406251ac0e3d6fe8f36a85422fa962e\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:18:13-20:85
+86                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+86-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\1406251ac0e3d6fe8f36a85422fa962e\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:19:17-127
+87                android:value="com.google.firebase.components.ComponentRegistrar" />
+87-->[com.google.firebase:firebase-installations:18.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\1406251ac0e3d6fe8f36a85422fa962e\transformed\jetified-firebase-installations-18.0.0\AndroidManifest.xml:20:17-82
+88            <meta-data
+88-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\f2b1f27f8a7872f06d90b163a41eec61\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+89                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+89-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\f2b1f27f8a7872f06d90b163a41eec61\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[com.google.firebase:firebase-common-ktx:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\f2b1f27f8a7872f06d90b163a41eec61\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+91            <meta-data
+91-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\c32fb5eb96649f479ff139e47e5cfa45\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+92                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+92-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\c32fb5eb96649f479ff139e47e5cfa45\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\c32fb5eb96649f479ff139e47e5cfa45\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+94        </service>
+95
+96        <property
+96-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\ac262adcf632626579ec7f99b9be3106\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:30:9-32:61
+97            android:name="android.adservices.AD_SERVICES_CONFIG"
+97-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\ac262adcf632626579ec7f99b9be3106\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:31:13-65
+98            android:resource="@xml/ga_ad_services_config" />
+98-->[com.google.android.gms:play-services-measurement-api:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\ac262adcf632626579ec7f99b9be3106\transformed\jetified-play-services-measurement-api-22.1.2\AndroidManifest.xml:32:13-58
+99
+100        <receiver
+100-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\cede023a6093dd4f6cb54d53fa7a9ca7\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:29:9-33:20
+101            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+101-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\cede023a6093dd4f6cb54d53fa7a9ca7\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:30:13-85
+102            android:enabled="true"
+102-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\cede023a6093dd4f6cb54d53fa7a9ca7\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:31:13-35
+103            android:exported="false" >
+103-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\cede023a6093dd4f6cb54d53fa7a9ca7\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:32:13-37
+104        </receiver>
+105
+106        <service
+106-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\cede023a6093dd4f6cb54d53fa7a9ca7\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:35:9-38:40
+107            android:name="com.google.android.gms.measurement.AppMeasurementService"
+107-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\cede023a6093dd4f6cb54d53fa7a9ca7\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:36:13-84
+108            android:enabled="true"
+108-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\cede023a6093dd4f6cb54d53fa7a9ca7\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:37:13-35
+109            android:exported="false" />
+109-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\cede023a6093dd4f6cb54d53fa7a9ca7\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:38:13-37
+110        <service
+110-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\cede023a6093dd4f6cb54d53fa7a9ca7\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:39:9-43:72
+111            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+111-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\cede023a6093dd4f6cb54d53fa7a9ca7\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:40:13-87
+112            android:enabled="true"
+112-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\cede023a6093dd4f6cb54d53fa7a9ca7\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:41:13-35
+113            android:exported="false"
+113-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\cede023a6093dd4f6cb54d53fa7a9ca7\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:42:13-37
+114            android:permission="android.permission.BIND_JOB_SERVICE" />
+114-->[com.google.android.gms:play-services-measurement:22.1.2] C:\Users\Vibesheak\.gradle\caches\transforms-3\cede023a6093dd4f6cb54d53fa7a9ca7\transformed\jetified-play-services-measurement-22.1.2\AndroidManifest.xml:43:13-69
+115
+116        <uses-library
+116-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Vibesheak\.gradle\caches\transforms-3\29b2afadb5d762db459808f64547fddf\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:23:9-25:40
+117            android:name="android.ext.adservices"
+117-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Vibesheak\.gradle\caches\transforms-3\29b2afadb5d762db459808f64547fddf\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:24:13-50
+118            android:required="false" />
+118-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Vibesheak\.gradle\caches\transforms-3\29b2afadb5d762db459808f64547fddf\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:25:13-37
+119        <uses-library
+119-->[androidx.window:window:1.0.0-beta04] C:\Users\Vibesheak\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+120            android:name="androidx.window.extensions"
+120-->[androidx.window:window:1.0.0-beta04] C:\Users\Vibesheak\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+121            android:required="false" />
+121-->[androidx.window:window:1.0.0-beta04] C:\Users\Vibesheak\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+122        <uses-library
+122-->[androidx.window:window:1.0.0-beta04] C:\Users\Vibesheak\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+123            android:name="androidx.window.sidecar"
+123-->[androidx.window:window:1.0.0-beta04] C:\Users\Vibesheak\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+124            android:required="false" />
+124-->[androidx.window:window:1.0.0-beta04] C:\Users\Vibesheak\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+125
+126        <provider
+126-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\c32fb5eb96649f479ff139e47e5cfa45\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+127            android:name="com.google.firebase.provider.FirebaseInitProvider"
+127-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\c32fb5eb96649f479ff139e47e5cfa45\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+128            android:authorities="com.example.power_app.firebaseinitprovider"
+128-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\c32fb5eb96649f479ff139e47e5cfa45\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+129            android:directBootAware="true"
+129-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\c32fb5eb96649f479ff139e47e5cfa45\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+130            android:exported="false"
+130-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\c32fb5eb96649f479ff139e47e5cfa45\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+131            android:initOrder="100" />
+131-->[com.google.firebase:firebase-common:21.0.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\c32fb5eb96649f479ff139e47e5cfa45\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+132
+133        <activity
+133-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\bdfc5a1cce0aaae4b042008c6a219db5\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:9-173
+134            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+134-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\bdfc5a1cce0aaae4b042008c6a219db5\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:19-85
+135            android:exported="false"
+135-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\bdfc5a1cce0aaae4b042008c6a219db5\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:146-170
+136            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+136-->[com.google.android.gms:play-services-base:18.5.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\bdfc5a1cce0aaae4b042008c6a219db5\transformed\jetified-play-services-base-18.5.0\AndroidManifest.xml:5:86-145
+137
+138        <meta-data
+138-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\5a94ddd8e6f3131ad9a82b8563616d9f\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:9-122
+139            android:name="com.google.android.gms.version"
+139-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\5a94ddd8e6f3131ad9a82b8563616d9f\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:20-65
+140            android:value="@integer/google_play_services_version" />
+140-->[com.google.android.gms:play-services-basement:18.4.0] C:\Users\Vibesheak\.gradle\caches\transforms-3\5a94ddd8e6f3131ad9a82b8563616d9f\transformed\jetified-play-services-basement-18.4.0\AndroidManifest.xml:6:66-119
+141    </application>
+142
+143</manifest>

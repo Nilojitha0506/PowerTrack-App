@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_database_url" translatable="false">https://smart-energy-meter-add45-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">13491257268</string>
+    <string name="google_api_key" translatable="false">AIzaSyCAUWI8gExKFouLghHKqVb4DUy2ljDW84g</string>
+    <string name="google_app_id" translatable="false">1:13491257268:android:80ae7e1a65eaa979b47ce1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCAUWI8gExKFouLghHKqVb4DUy2ljDW84g</string>
+    <string name="google_storage_bucket" translatable="false">smart-energy-meter-add45.appspot.com</string>
+    <string name="project_id" translatable="false">smart-energy-meter-add45</string>
+</resources>

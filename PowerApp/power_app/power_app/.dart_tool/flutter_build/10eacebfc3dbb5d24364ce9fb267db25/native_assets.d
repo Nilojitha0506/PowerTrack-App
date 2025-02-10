@@ -1,0 +1,1 @@
+ C:\\Users\\Vibesheak\\Desktop\\power_app\\.dart_tool\\flutter_build\\10eacebfc3dbb5d24364ce9fb267db25\\native_assets.yaml: 

@@ -1,0 +1,16 @@
+io.flutter.plugins.firebase.database.firebase_database-jetified-annotation-experimental-1.1.0-0 C:\Users\Vibesheak\.gradle\caches\transforms-3\02315cc9f75263553d2042718fc375ee\transformed\jetified-annotation-experimental-1.1.0\res
+io.flutter.plugins.firebase.database.firebase_database-jetified-window-1.0.0-beta04-1 C:\Users\Vibesheak\.gradle\caches\transforms-3\076eb9235982ee06112d76594ea8585f\transformed\jetified-window-1.0.0-beta04\res
+io.flutter.plugins.firebase.database.firebase_database-jetified-firebase-common-20.4.2-2 C:\Users\Vibesheak\.gradle\caches\transforms-3\29429379be0edfde063e43fae29f4d1b\transformed\jetified-firebase-common-20.4.2\res
+io.flutter.plugins.firebase.database.firebase_database-jetified-play-services-basement-18.3.0-3 C:\Users\Vibesheak\.gradle\caches\transforms-3\2971e8222b6d8953a900638ba0d233ca\transformed\jetified-play-services-basement-18.3.0\res
+io.flutter.plugins.firebase.database.firebase_database-jetified-window-java-1.0.0-beta04-4 C:\Users\Vibesheak\.gradle\caches\transforms-3\99750bb863b6fe460a7b5da8686e778d\transformed\jetified-window-java-1.0.0-beta04\res
+io.flutter.plugins.firebase.database.firebase_database-core-1.6.0-5 C:\Users\Vibesheak\.gradle\caches\transforms-3\d08c73bfb05384f2e52578171dbd141e\transformed\core-1.6.0\res
+io.flutter.plugins.firebase.database.firebase_database-jetified-play-services-base-18.1.0-6 C:\Users\Vibesheak\.gradle\caches\transforms-3\e0a8793a7a85d6e071b7a743c9adf075\transformed\jetified-play-services-base-18.1.0\res
+io.flutter.plugins.firebase.database.firebase_database-main-7 C:\Users\Vibesheak\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_database-10.4.9\android\src\main\res
+io.flutter.plugins.firebase.database.firebase_database-release-8 C:\Users\Vibesheak\AppData\Local\Pub\Cache\hosted\pub.dev\firebase_database-10.4.9\android\src\release\res
+io.flutter.plugins.firebase.database.firebase_database-packaged_res-9 C:\Users\Vibesheak\Desktop\power_app\build\firebase_core\intermediates\packaged_res\release
+io.flutter.plugins.firebase.database.firebase_database-pngs-10 C:\Users\Vibesheak\Desktop\power_app\build\firebase_database\generated\res\pngs\release
+io.flutter.plugins.firebase.database.firebase_database-resValues-11 C:\Users\Vibesheak\Desktop\power_app\build\firebase_database\generated\res\resValues\release
+io.flutter.plugins.firebase.database.firebase_database-rs-12 C:\Users\Vibesheak\Desktop\power_app\build\firebase_database\generated\res\rs\release
+io.flutter.plugins.firebase.database.firebase_database-mergeReleaseResources-13 C:\Users\Vibesheak\Desktop\power_app\build\firebase_database\intermediates\incremental\release\mergeReleaseResources\merged.dir
+io.flutter.plugins.firebase.database.firebase_database-mergeReleaseResources-14 C:\Users\Vibesheak\Desktop\power_app\build\firebase_database\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+io.flutter.plugins.firebase.database.firebase_database-merged_res-15 C:\Users\Vibesheak\Desktop\power_app\build\firebase_database\intermediates\merged_res\release
